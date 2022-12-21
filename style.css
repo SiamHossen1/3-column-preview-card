@@ -124,6 +124,10 @@ body{
 }
 
 @media (max-width:576px){
+    body{
+        display: block;
+        margin: 1rem;
+    }
     .cards__container{
         grid-template-columns: 1fr;
         place-content: center; 
